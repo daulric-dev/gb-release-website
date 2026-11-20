@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Orbit Downloads — Official releases',
-  description: 'Download the latest Orbit release for macOS, Windows, and Linux. Browse packages, release notes, and checksums.',
+  title: 'GB Downloads — GitHub Releases',
+  description: 'Browse and download the latest packages and checksums from daulric-dev/gb releases on GitHub.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'light',
-  themeColor: '#f7f8fa',
+  themeColor: '#f4eee6',
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
